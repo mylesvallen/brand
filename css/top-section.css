@@ -1,5 +1,3 @@
-#top {}
-
 #top .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,25 +50,41 @@
     z-index: 1;
 }
 
-#top .image {}
-
 #top .image .background-img {
     background: url('../images/mylesprofilemin.jpg');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 800px;
+    height: 820px;
     margin: 0 auto;
 }
 
 
 /* Tablets */
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+    #top .info h1 {
+        font-size: 1.8remd;
+    }
+}
 
 
 /* Mobiles */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    #top .container {
+        padding: 0;
+    }
+    #top .info .blue-square {
+        display: none;
+    }
+    #top .info h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+    #top .image .background-img {
+        height: 90vh;
+    }
+}
