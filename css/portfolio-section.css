@@ -106,9 +106,6 @@
 
 /* BOX LOCATIONS */
 
-
-/* BOX LOCATIONS */
-
 #portfolio .portfolio-container .box.image1 {
     grid-column: 1/3;
     grid-row: 1/2;
@@ -210,6 +207,12 @@
 
 /* Tablets */
 
+
+/* Tablets */
+
+
+/* Tablets */
+
 @media only screen and (max-width: 960px) {
     #portfolio .portfolio-container {
         display: grid;
@@ -250,11 +253,17 @@
 
 /* Mobiles */
 
+
+/* Mobiles */
+
+
+/* Mobiles */
+
 @media only screen and (max-width: 767px) {
     #portfolio .portfolio-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
         grid-gap: 10px;
     }
     #portfolio .portfolio-container .box.image1 {
@@ -283,6 +292,6 @@
     }
     #portfolio .portfolio-container .box.image7 {
         grid-column: 1/4;
-        grid-row: 1/4;
+        grid-row: 7/8;
     }
 }
