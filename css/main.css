@@ -12,48 +12,6 @@
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    padding: 40px 0 0 0;
-    justify-content: right;
-    justify-content: space-between;
-}
-
-header .header-menu {
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header .header-menu a {
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    padding: 0 0 0 10px;
-    transition: all .3s ease-in-out;
-}
-
-header .header-menu a:hover {
-    font-weight: 700;
-    color: #ff5253;
-}
-
-header .menu-btn {
-    font-weight: 700;
-    color: #ff5253;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6rem;
-    display: none;
-}
-
 @media only screen and (max-width: 960px) {
     container {
         width: 100%;
