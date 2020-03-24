@@ -1,36 +1,37 @@
 #top .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px 0;
     align-items: center;
 }
 
 #top .info {
     padding: 15px;
-    position: relative;
 }
 
 #top .info h1 {
-    position: relative;
+    position: absolute;
+    top: 300px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 6rem;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #16171b;
-    margin-bottom: .25rem;
+    color: black;
     z-index: 1;
 }
 
 #top .info p {
     position: relative;
-    color: #919191;
+    top: 7rem;
+    color: black;
     text-transform: capitalize;
-    margin-bottom: 4rem;
     z-index: 1;
 }
 
 #top .info a {
     position: relative;
-    color: #919191;
+    top: 9rem;
+    color: blue;
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: 700;

@@ -7,10 +7,17 @@
 @import "blog-section.css";
 @import "testimonials-section.css";
 @import "footer-section.css";
+body {
+    background: #FFF
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/*Tablets*/
 
 @media only screen and (max-width: 960px) {
     container {
